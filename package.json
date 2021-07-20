@@ -1,0 +1,25 @@
+{
+  "name": "projet_tutoro",
+  "version": "1.0.0",
+  "description": "Mise en place d'une api rest qui regroupera les pharmacies du senegal ainsi que les pharmacie de garde",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "projet_tutoré"
+  ],
+  "author": "Ouedraogo luc et Augusto miraide",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
